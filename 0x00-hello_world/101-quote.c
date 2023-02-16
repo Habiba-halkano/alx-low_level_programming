@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - prints a string using fput
  * Return: 1 (Success)
