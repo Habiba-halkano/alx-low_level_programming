@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return: Always 0
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -13,5 +14,6 @@ int main(void)
 			sum += 1;
 	}
 	printf("%d\n", sum);
+
 	return (0);
 }
