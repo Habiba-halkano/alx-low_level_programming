@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints combination of two two numbers
+ * main - prints numbers in twos
  * Return: 0 (success)
  */
 int main(void)
@@ -15,7 +15,7 @@ for (a = 0; a <= 9; a++)
 		{
 			for (d = 0; d <= 9; d++)
 			{
-				if (((c + d) > (a + b) &&  c >= a) || a < c)
+				if (((c + d) > (a + b) && c >= a) || a < c)
 				{
 					putchar(a);
 					putchar(b);
@@ -28,7 +28,7 @@ for (a = 0; a <= 9; a++)
 					}
 					else
 					{
-						putchar(',');
+						putchar (',');
 						putchar(' ');
 					}
 				}
